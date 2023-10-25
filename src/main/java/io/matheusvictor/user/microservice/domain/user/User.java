@@ -1,4 +1,4 @@
-package io.matheusvictor.user.microservice.domain;
+package io.matheusvictor.user.microservice.domain.user;
 
 import jakarta.persistence.*;
 

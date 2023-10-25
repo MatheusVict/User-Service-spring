@@ -1,8 +1,9 @@
 package io.matheusvictor.user.microservice.domain.user.dto;
 
+import java.io.Serializable;
 import java.util.UUID;
 
-public class EmailDTO {
+public class EmailDTO implements Serializable    {
     private UUID userID;
     private String emailTo;
     private String subject;
